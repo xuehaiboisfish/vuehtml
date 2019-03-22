@@ -1,0 +1,29 @@
+Windows 下直接下载nodejs安装包
+-- npm的官方镜像是非常慢的，推荐使用淘宝 NPM 镜像。
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+-- 安装webpack
+cnpm install webpack -g
+-- 安装vue脚手架
+npm install vue-cli -g
+-- 安装 vue 路由模块
+cnpm install vue-router -g
+-- 安装 vue 网络请求模块
+cnpm install vue-resource -g
+
+-- 更新版本
+npm update -g
+npm update vue-cli
+-- 查看当前全局 vue-cli 的版本
+npm view vue-cli
+
+-- 在硬盘上找一个文件夹放工程用的，在终端中进入该目录
+cd 目录路径
+-- 根据模板创建项目
+vue init webpack-simple 工程名字<工程名字不能用中文>
+
+cd 工程名字
+npm install
+npm run dev
+
+
+
